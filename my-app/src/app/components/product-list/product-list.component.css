@@ -2,6 +2,7 @@
   text-align: center;
   border-bottom: 1px solid black;
 }
+
 .title {
   border-bottom: 1px solid black;
 }
@@ -9,9 +10,11 @@
 button {
   margin-bottom: 10px;
 }
+
 .red {
   background: red;
 }
+
 .green {
   background: green;
-}
+}/*# sourceMappingURL=product-list.component.css.map */

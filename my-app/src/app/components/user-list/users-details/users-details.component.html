@@ -1,0 +1,28 @@
+<div class="user-details" *ngIf="selectedUser">
+    <div class="tabs">
+        <div class="info-title">Basic Info</div>
+    </div>
+    <div class="tab-content">
+        <h2>{{ selectedUser.name }} {{ selectedUser.surname }}</h2>
+        <p>Address: {{ selectedUser.address }}</p>
+        <p>Age: {{ selectedUser.age }}</p>
+        <p>Profession: {{ selectedUser.profession }}</p>
+        <p>Studies: {{ selectedUser.studies }}</p>
+    </div>
+    <div class="info-title">Extra Details</div>
+    <div class="tab-content">
+        <h3>Experience:</h3>
+        <ul>
+            <li *ngFor="let experience of selectedUser.experience">{{ experience.jobTitle }} - {{ experience.years }}
+                years</li>
+        </ul>
+        <h3>Hobbies:</h3>
+        <ul>
+            <li *ngFor="let hobby of selectedUser.hobbies">{{ hobby }}</li>
+        </ul>
+        <h3>Competencies:</h3>
+        <ul>
+            <li *ngFor="let competency of selectedUser.competencies">{{ competency }}</li>
+        </ul>
+    </div>
+</div>

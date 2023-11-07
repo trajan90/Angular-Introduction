@@ -1,4 +1,97 @@
-<h2>Products</h2>
-<div class="listOfProducts" *ngFor="let product of products">
-    {{ product }}
+<h1 class="heading">Directives</h1>
+
+
+<h2>Structural directives</h2>
+<!-- NgIf NgFor NgSwitch -->
+
+
+<h3 class="title"> Ng If</h3>
+<div *ngIf="isDivVisible">
+    <p>My first structural directive paragraph</p>
+
 </div>
+
+<button (click)="handleClick()">Toggle div</button>
+
+<h3 class="title">Ng For</h3>
+<div *ngFor="let product of products">
+    <h3>{{product.name}} {{ product.size}}</h3>
+    <p>{{product.description}}</p>
+    <button (click)="handleViewDetails()">View Details</button>
+
+</div>
+
+<h3 class="title">Ng Switch</h3>
+
+<div [ngSwitch]="tipDeAnimal">
+    <div *ngSwitchCase="CAINE">Golden Retriever
+        <div *ngIf="false">
+            White Golden
+        </div>
+        <div *ngIf="false">
+            Brown Golden
+
+
+        </div>
+        <div *ngSwitchCase="CAINE">Doberman</div>
+        <div *ngSwitchCase="PISICA">Siameza</div>
+        <div *ngSwitchCase="CAINE">Pechinez</div>
+        <div *ngSwitchCase="PISICA">Main Coon</div>
+
+    </div>
+
+    <button (click)="randeazaSwitchCainii()"> Switch caini</button>
+    <button (click)="randeazaSwitchPisici()"> Switch pisici</button>
+
+
+    <!-- <button (click)="handleDeleteClick()">Delete last product</button> -->
+
+    <h2>NG Container and template</h2>
+
+    <!-- Ng container -->
+    <ng-container *ngIf="false">
+        <div *ngFor="let x of [1,2,3]">
+            {{x}}
+        </div>
+    </ng-container>
+
+
+    <!-- Ng template -->
+
+    <ng-container *ngIf="true; else templ">
+        <div>Container faslse and template true</div>
+    </ng-container>
+
+    <ng-template #templ>
+        <div>My first ng template. Container true and templatedefault false</div>
+    </ng-template>
+
+    <h3 class="title">Attribute Directives</h3>
+
+    <p [title]="'title'" [attr.data-sectionvalue]="'value'" [ngClass]="false ? 'red' : 'green'">Heading 1</p>
+
+    <h3 class="title">Event binding</h3>
+
+
+    <button (click)="handleClickEventBinding($event, 'Hello World')">Click me</button>
+    <button (mouseover)="handleClickEventBinding($event, 'Hello World')">Hover me</button>
+
+
+    <input type="text" value="Text value" (input)="handleOnInputChange($event)">
+
+
+
+    <h3 class="title">Two ways data binding</h3>
+
+    <input [(ngModel)]="ngModelInputValue" type="text" value="Text value" (ngModelChange)="handleNgModelChange($event)">
+
+
+    <h3 class="title">Input Output</h3>
+
+    <div>
+        <h3>Input</h3>
+        <p>Input value from app parent component = <span>{{ childInputValue }}</span></p>
+
+        <h3>Output</h3>
+        <button (click)="handleSendDataToParentClick()">Send data to parent</button>
+    </div>

@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "name": "John",
+    "surname": "Doe",
+    "address": "123 Main St, City A, Country X",
+    "studies": [
+      "Bachelor's in Computer Science",
+      "Master's in Business Administration"
+    ],
+    "age": "30",
+    "profession": "Software Engineer",
+    "experience": [
+      {
+        "jobTitle": "Junior Software Developer",
+        "years": "2",
+        "location": "City A"
+      },
+      {
+        "jobTitle": "Software Engineer",
+        "years": "5",
+        "location": "City B"
+      }
+    ],
+    "hobbies": ["Hiking", "Gaming", "Reading"],
+    "competencies": ["Java", "JavaScript", "Python"]
+  },
+  {
+    "id": 2,
+    "name": "Alice",
+    "surname": "Smith",
+    "address": "456 Elm St, City B, Country Y",
+    "studies": ["Bachelor's in Marketing"],
+    "age": "28",
+    "profession": "Marketing Manager",
+    "experience": [
+      {
+        "jobTitle": "Marketing Coordinator",
+        "years": "3",
+        "location": "City C"
+      },
+      {
+        "jobTitle": "Marketing Manager",
+        "years": "4",
+        "location": "City D"
+      }
+    ],
+    "hobbies": ["Painting", "Traveling", "Cooking"],
+    "competencies": [
+      "Marketing Strategy",
+      "Digital Advertising",
+      "Market Research"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Michael",
+    "surname": "Johnson",
+    "address": "789 Oak St, City C, Country Z",
+    "studies": [
+      "Bachelor's in Electrical Engineering",
+      "Master's in Management"
+    ],
+    "age": "32",
+    "profession": "Electrical Engineer",
+    "experience": [
+      {
+        "jobTitle": "Electrical Engineer Trainee",
+        "years": "2",
+        "location": "City E"
+      },
+      {
+        "jobTitle": "Senior Electrical Engineer",
+        "years": "8",
+        "location": "City F"
+      }
+    ],
+    "hobbies": ["Photography", "Cycling", "Music"],
+    "competencies": ["Circuit Design", "Power Systems", "Project Management"]
+  },
+  {
+    "id": 4,
+    "name": "Sarah",
+    "surname": "Williams",
+    "address": "567 Pine St, City D, Country X",
+    "studies": ["Bachelor's in Finance", "Master's in Economics"],
+    "age": "29",
+    "profession": "Financial Analyst",
+    "experience": [
+      {
+        "jobTitle": "Junior Analyst",
+        "years": "3",
+        "location": "City G"
+      },
+      {
+        "jobTitle": "Senior Analyst",
+        "years": "5",
+        "location": "City H"
+      }
+    ],
+    "hobbies": ["Swimming", "Cooking", "Movies"],
+    "competencies": ["Financial Analysis", "Data Analytics", "Risk Management"]
+  },
+  {
+    "id": 5,
+    "name": "David",
+    "surname": "Brown",
+    "address": "890 Cedar St, City E, Country Y",
+    "studies": [
+      "Bachelor's in Mechanical Engineering",
+      "Master's in Project Management"
+    ],
+    "age": "31",
+    "profession": "Mechanical Engineer",
+    "experience": [
+      {
+        "jobTitle": "Mechanical Engineer Trainee",
+        "years": "2",
+        "location": "City I"
+      },
+      {
+        "jobTitle": "Senior Mechanical Engineer",
+        "years": "7",
+        "location": "City J"
+      }
+    ],
+    "hobbies": ["Gardening", "Camping", "DIY Projects"],
+    "competencies": ["Mechanical Design", "CAD Software", "Project Planning"]
+  },
+  {
+    "id": 6,
+    "name": "Emily",
+    "surname": "Davis",
+    "address": "234 Birch St, City F, Country Z",
+    "studies": ["Bachelor's in Psychology", "Master's in Counseling"],
+    "age": "27",
+    "profession": "Psychologist",
+    "experience": [
+      {
+        "jobTitle": "Clinical Psychologist",
+        "years": "4",
+        "location": "City K"
+      },
+      {
+        "jobTitle": "Counseling Psychologist",
+        "years": "3",
+        "location": "City L"
+      }
+    ],
+    "hobbies": ["Yoga", "Reading", "Art"],
+    "competencies": ["Therapy", "Counseling", "Mental Health Assessment"]
+  },
+  {
+    "id": 7,
+    "name": "James",
+    "surname": "Wilson",
+    "address": "345 Oak St, City G, Country X",
+    "studies": ["Bachelor's in Business Administration", "Master's in Finance"],
+    "age": "29",
+    "profession": "Financial Manager",
+    "experience": [
+      {
+        "jobTitle": "Financial Analyst",
+        "years": "5",
+        "location": "City M"
+      },
+      {
+        "jobTitle": "Finance Manager",
+        "years": "4",
+        "location": "City N"
+      }
+    ],
+    "hobbies": ["Golf", "Traveling", "Cooking"],
+    "competencies": ["Financial Planning", "Budgeting", "Risk Management"]
+  },
+  {
+    "id": 8,
+    "name": "Linda",
+    "surname": "Johnson",
+    "address": "123 Maple St, City H, Country Y",
+    "studies": [
+      "Bachelor's in Education",
+      "Master's in Educational Leadership"
+    ],
+    "age": "30",
+    "profession": "School Principal",
+    "experience": [
+      {
+        "jobTitle": "Teacher",
+        "years": "6",
+        "location": "City O"
+      },
+      {
+        "jobTitle": "Principal",
+        "years": "4",
+        "location": "City P"
+      }
+    ],
+    "hobbies": ["Tennis", "Reading", "Volunteering"],
+    "competencies": [
+      "Educational Leadership",
+      "Curriculum Development",
+      "Student Relations"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Daniel",
+    "surname": "Martinez",
+    "address": "456 Willow St, City I, Country Z",
+    "studies": ["Bachelor's in Medicine", "Residency in Internal Medicine"],
+    "age": "33",
+    "profession": "Physician",
+    "experience": [
+      {
+        "jobTitle": "Resident Doctor",
+        "years": "4",
+        "location": "City Q"
+      },
+      {
+        "jobTitle": "Internal Medicine Specialist",
+        "years": "7",
+        "location": "City R"
+      }
+    ],
+    "hobbies": ["Running", "Cooking", "Music"],
+    "competencies": ["Internal Medicine", "Patient Care", "Medical Research"]
+  },
+  {
+    "id": 10,
+    "name": "Megan",
+    "surname": "Taylor",
+    "address": "678 Cedar St, City J, Country X",
+    "studies": ["Bachelor's in Art History", "Master's in Museum Studies"],
+    "age": "26",
+    "profession": "Museum Curator",
+    "experience": [
+      {
+        "jobTitle": "Assistant Curator",
+        "years": "3",
+        "location": "City S"
+      },
+      {
+        "jobTitle": "Museum Curator",
+        "years": "2",
+        "location": "City T"
+      }
+    ],
+    "hobbies": ["Art Appreciation", "Traveling", "Photography"],
+    "competencies": ["Art Curation", "Museum Management", "Exhibit Design"]
+  }
+]
